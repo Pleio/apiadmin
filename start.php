@@ -81,7 +81,7 @@
 	function apiadmin_list_key() {
 		global $CONFIG;
 	
-		$query = "SELECT api_key from {$CONFIG->dbprefix}api_users WHERE active=1";
+		$query = "SELECT api_key from {$CONFIG->dbprefix}api_users WHERE active=1 AND site_guid=" . elgg_get_site_entity()->getGUID();
 
 		return get_data($query);
 	}
