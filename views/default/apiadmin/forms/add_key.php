@@ -1,4 +1,6 @@
-<h2 class="elgg-heading-main">Generate a new key</h2>
+<h2 class="elgg-heading-main">
+	<?php echo elgg_echo('apiadmin:header:newkey'); ?>
+</h2>
 <hr />
 <br />
 <?php
@@ -17,7 +19,8 @@ END;
 ?>
 <br />
 <h2 class="elgg-heading-main">
-List of existing Keys </h2>
+	<?php echo elgg_echo('apiadmin:header:existingkeys'); ?>
+</h2>
 <hr />
 <table border="1" cellpadding="5" cellspacing="5" width="600">
 <tr>

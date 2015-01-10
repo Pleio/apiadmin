@@ -20,8 +20,7 @@
 	// Set admin user for user block
 	elgg_set_page_owner_guid($_SESSION['guid']);
 	
-	
-	$title = elgg_view_title(elgg_echo('apiadmin'));
+	$title = elgg_echo('apiadmin');
 
 	// Display add form
 	$content .= elgg_view('apiadmin/forms/add_key');

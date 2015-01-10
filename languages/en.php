@@ -15,9 +15,13 @@
 		 * Menu items and titles
 		 */
 	
+			'menu:page:header:Tools' => 'Tools',
 			'apiadmin' => 'API Administration',
 	
 	
+			'apiadmin:header:existingkeys' => 'List of existing keys',
+			'apiadmin:header:newkey' => 'Generate a new key',
+
 			'apiadmin:keyrevoked' => 'API Key revoked',
 			'apiadmin:keynotrevoked' => 'API Key could not be revoked',
 			'apiadmin:generated' => 'API Key successfully generated',
